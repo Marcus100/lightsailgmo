@@ -1,6 +1,6 @@
 services:
-  app:
+  gmo:
     build:
       context: .
     volumes:
-      - ./app:/app
+      - ./gmo:/gmo

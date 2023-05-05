@@ -10,5 +10,5 @@ RUN python -m venv /py && \
 
 ENV PATH = "/py/bin:$PATH"
 
-COPY ./app /app
-WORKDIR /app
+COPY ./gmo /gmo
+WORKDIR /gmo
